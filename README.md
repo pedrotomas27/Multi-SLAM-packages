@@ -20,7 +20,7 @@ The following table summarizes the success of package adaptation and data transf
 | DLO              | ✔️                     | ✔️                       |
 
 *Note: ✔️* - Success was achieved only with Velarray M1600. Methods do not support Bpearl technology.
-*DLO and DLIO already supported our LiDAR technology.
+*DLO and DLIO already supported the tested LiDAR technology.
 ### Usage Instructions
 
 1. **Transform Data**: For SLAM methods that do not directly support Velarray M1600 or Bpearl LiDAR technology, use the provided Python nodes to convert your data into the VLP-16 format.
@@ -32,4 +32,4 @@ The methods are available as Docker images. You can find them at [Docker Hub](ht
 
 ## Dependencies
 
-Please refer to the GitHub repository of each SLAM method for specific package dependencies.
+The tested environment was ROS Noetic with Ubuntu 20.04. For specific package dependencies, please refer to the GitHub repository of each SLAM method.
