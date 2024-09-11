@@ -26,6 +26,10 @@ The following table summarizes the success of package adaptation and data transf
 1. **Transform Data**: For SLAM methods that do not directly support your LiDAR technology, use the provided Python nodes to convert your data into the VLP-16 format.
 2. **Run SLAM Methods**: Execute the SLAM methods according to their respective instructions. Ensure to run any necessary transformation nodes concurrently if required.
 
+## Docker
+
+The methods are available as Docker images. You can find them at [Docker Hub](https://hub.docker.com/repository/docker/pedrotomas2700/rustle/general).
+
 ## Dependencies
 
 Please refer to the GitHub repository of each SLAM method for specific package dependencies.
