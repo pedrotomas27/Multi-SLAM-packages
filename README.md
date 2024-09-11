@@ -20,7 +20,7 @@ The following table summarizes the success of package adaptation and data transf
 | DLO              | ✔️                     | ✔️                       |
 
 *Note: ✔️* - Success was achieved only with Velarray M1600. Methods do not support Bpearl technology.
-
+*DLO and DLIO already supported our LiDAR technology.
 ### Usage Instructions
 
 1. **Transform Data**: For SLAM methods that do not directly support Velarray M1600 or Bpearl LiDAR technology, use the provided Python nodes to convert your data into the VLP-16 format.
