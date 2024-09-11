@@ -1,0 +1,27 @@
+[submodule "Point-LIO"]
+	path = Point-LIO
+	url = https://github.com/pedrotomas27/Point-LIO.git
+[submodule "python_executables"]
+	path = python_executables
+	url = https://github.com/pedrotomas27/python_executables.git
+[submodule "Light-LOAM"]
+	path = Light-LOAM
+	url = https://github.com/pedrotomas27/Light-LOAM.git
+[submodule "FAST_LIO"]
+	path = FAST_LIO
+	url = https://github.com/pedrotomas27/FAST_LIO.git
+[submodule "A-LOAM"]
+	path = A-LOAM
+	url = https://github.com/pedrotomas27/A-LOAM.git
+[submodule "faster-lio"]
+	path = faster-lio
+	url = https://github.com/pedrotomas27/faster-lio.git
+[submodule "ig_lio"]
+	path = ig_lio
+	url = https://github.com/pedrotomas27/ig_lio.git
+[submodule "direct_lidar_inertial_odometry"]
+	path = direct_lidar_inertial_odometry
+	url = https://github.com/pedrotomas27/direct_lidar_inertial_odometry.git
+[submodule "direct_lidar_odometry"]
+	path = direct_lidar_odometry
+	url = https://github.com/pedrotomas27/direct_lidar_odometry.git
