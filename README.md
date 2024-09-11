@@ -4,7 +4,7 @@ This repository includes implementations of eight different SLAM methods tested 
 
 ## LiDAR Compatibility
 
-The following table summarizes the success of package adaptation and data transformation for each SLAM method. For methods that could not be effectively modified, two Python nodes have been created to transform each LiDAR dataset into a more commonly used format, VLP-16. Depending on your machine’s capability, real-time transformations may be possible.
+The following table summarizes the success of package adaptation and data transformation for each SLAM method. For methods that could not be effectively modified, two Python nodes have been created to transform each LiDAR dataset into a more commonly used technology, VLP-16. Depending on your machine’s capability, real-time transformations may be possible.
 
 ### Compatibility Table
 
