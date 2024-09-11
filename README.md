@@ -1,6 +1,6 @@
 # SLAM Methods with LiDAR Support
 
-This repository includes implementations of eight different SLAM methods tested with two datasets: Velarray M1600 and Bpearl. Due to compatibility issues with the LiDAR technologies used, most methods required modifications to handle both datasets. Unfortunately, not all methods were successfully adapted.
+This repository includes implementations of eight different SLAM methods tested with two datasets, one using Velarray M1600, the other using Bpearl. Due to compatibility issues with the LiDAR technologies used, most methods required modifications to handle both datasets. Unfortunately, not all methods were successfully adapted.
 
 ## LiDAR Compatibility
 
