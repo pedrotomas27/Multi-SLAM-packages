@@ -1,2 +1,31 @@
-# Multi-SLAM-packages
-This is a repository containing 8 different SLAM methods
+# SLAM Methods with LiDAR Support
+
+This repository includes implementations of eight different SLAM methods tested with two datasets: Velarray M1600 and Bpearl. Due to compatibility issues with the LiDAR technologies used, most methods required modifications to handle both datasets. Unfortunately, not all methods were successfully adapted.
+
+## LiDAR Compatibility
+
+The following table summarizes the success of package adaptation and data transformation for each SLAM method. For methods that could not be effectively modified, two Python nodes have been created to transform each LiDAR dataset into a more commonly used format, VLP-16. Depending on your machine’s capability, real-time transformations may be possible.
+
+### Compatibility Table
+
+| **SLAM Method**  | **Package Adaptation** | **Data Transformation** |
+|------------------|------------------------|--------------------------|
+| FAST-LIO2        | ✔️*                    | ✔️                       |
+| Light-LOAM       | ✔️                     | ✔️                       |
+| iG-LIO           | ✔️                     | ✔️                       |
+| Point-LIO        | ✔️*                    | ✔️                       |
+| Faster-LIO       | ✔️                     | ✔️                       |
+| A-LOAM           | ✔️                     | ✔️                       |
+| DLIO             | ✔️                     | ✔️                       |
+| DLO              | ✔️                     | ✔️                       |
+
+*Note: ✔️* - Success was achieved only with Velarray M1600. Methods do not support Bpearl technology.
+
+### Usage Instructions
+
+1. **Transform Data**: For SLAM methods that do not directly support your LiDAR technology, use the provided Python nodes to convert your data into the VLP-16 format.
+2. **Run SLAM Methods**: Execute the SLAM methods according to their respective instructions. Ensure to run any necessary transformation nodes concurrently if required.
+
+## Dependencies
+
+Please refer to the GitHub repository of each SLAM method for specific package dependencies.
