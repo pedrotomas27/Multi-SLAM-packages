@@ -23,7 +23,7 @@ The following table summarizes the success of package adaptation and data transf
 
 ### Usage Instructions
 
-1. **Transform Data**: For SLAM methods that do not directly support your LiDAR technology, use the provided Python nodes to convert your data into the VLP-16 format.
+1. **Transform Data**: For SLAM methods that do not directly support Velarray M1600 or Bpearl LiDAR technology, use the provided Python nodes to convert your data into the VLP-16 format.
 2. **Run SLAM Methods**: Execute the SLAM methods according to their respective instructions. Ensure to run any necessary transformation nodes concurrently if required.
 
 ## Docker
