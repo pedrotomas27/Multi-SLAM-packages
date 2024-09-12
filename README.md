@@ -19,7 +19,7 @@ The following table summarizes the success of package adaptation and data transf
 | DLIO             | ✔️                     | ✔️                       |
 | DLO              | ✔️                     | ✔️                       |
 
-*Note: ✔️*  - Success was achieved only with Velarray M1600. Methods do not support Bpearl technology.
+Note: ✔️*  - Success was achieved only with Velarray M1600. Methods do not support Bpearl technology.
 *DLO and DLIO already supported the tested LiDAR technology.
 ### Usage Instructions
 
